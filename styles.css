@@ -27,3 +27,13 @@
 .menu:hover{
     color: crimson;
 }
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-color: grey;
+}
