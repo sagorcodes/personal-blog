@@ -28,12 +28,40 @@
     color: crimson;
 }
 .banner-img{
-    width: 300px;
+    width: 400px;
 }
 .banner-container{
     display: flex;
+    padding: 30px;
     justify-content: space-around;
     height: 100vh;
     align-items: center;
-    background-color: grey;
+    background-color: #262626;
+    color: #fff;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    font-family: poppins sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+}
+.paragraph{
+    font-family: poppins sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #C41A21;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    position: absolute;
+    right: 850px;
+}
+.btn:hover{
+    background-color: #d7191f;
 }
