@@ -65,3 +65,31 @@
 .btn:hover{
     background-color: #d7191f;
 }
+
+/* This is about section */
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    background-color: #36454b;
+    color: #fff;
+}
+.about-us{
+    font-size: 55px;
+    padding: 10px 140px;
+    
+}
+.Contact-button{
+    padding: 10px 20px;
+    background-color: #C41A21;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    position: absolute;
+    right: 310px;
+}
+.Contact-button:hover{
+    background-color: #d7191f;
+}
